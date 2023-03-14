@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace ProjetoPOO
 {
-    internal class Pessoa
+    internal abstract class Pessoa
     {
 
         string _name;
         string _lastName;
+
 
         public Pessoa() { }
 
